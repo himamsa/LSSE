@@ -1,0 +1,100 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 220px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #e0f0ff;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Shared layout styles */
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.section-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+}
+
+.back-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.graph-container {
+    padding: 30px 50px;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.section-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+}
+
+.back-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.feature-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
