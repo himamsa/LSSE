@@ -7,7 +7,6 @@ pages = [
     ("Traceability Timeline", "/trace"),
     ("Bubble Timeline", "/bubble"),
     ("Wordcloud Map", "/wordcloud"),
-    ("Slope Graph", "/slope"),
     ("Stacked Area Chart", "/stacked"),
     ("Sunburst Chart", "/sunburst"),
     ("Sentiment Heatmap", "/heatmap"),
