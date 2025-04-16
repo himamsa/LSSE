@@ -9,7 +9,6 @@ pages = [
     ("Wordcloud Map", "/wordcloud"),
     ("Stacked Area Chart", "/stacked"),
     ("Sunburst Chart", "/sunburst"),
-    ("Sentiment Heatmap", "/heatmap"),
     ("Feature Review Summary", "/feature-review")
 ]
 
