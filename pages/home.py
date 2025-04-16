@@ -6,7 +6,7 @@ register_page(__name__, path="/", name="Home")
 pages = [
     ("Traceability Timeline", "/trace"),
     ("Bubble Timeline", "/bubble"),
-    ("Correlation Plot", "/correlation"),
+    ("Wordcloud Map", "/wordcloud"),
     ("Slope Graph", "/slope"),
     ("Stacked Area Chart", "/stacked"),
     ("Sunburst Chart", "/sunburst"),
